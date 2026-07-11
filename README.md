@@ -1,6 +1,6 @@
 # 🔐 zaru - Cli Encryption Tool
 
-[![Version](https://img.shields.io/badge/version-2.1.0-blue.svg)](https://github.com/PARSAJF807/zaru/releases)
+[![Version](https://img.shields.io/badge/version-2.1.1-blue.svg)](https://github.com/PARSAJF807/zaru/releases)
 [![Python](https://img.shields.io/badge/python-3.14%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Algorithm](https://img.shields.io/badge/algorithm-XChaCha20--Poly1305-orange.svg)](https://en.wikipedia.org/wiki/ChaCha20)
