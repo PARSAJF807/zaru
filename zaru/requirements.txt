@@ -1,0 +1,3 @@
+#  zaru - Cli Encryption Tool 
+
+pycryptodome
