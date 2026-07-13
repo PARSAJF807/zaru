@@ -11,7 +11,7 @@
 
 ## 📖 Overview
 
-**Zaru** is a powerful command-line tool that encrypts your source code (Python, JavaScript, PHP, C, C++, Java, Go, Rust, Ruby, Perl, Bash, Lua, TypeScript, HTML) into a **self-decrypting loader** using the **XChaCha20-Poly1305** algorithm — the same encryption used in **Signal**, **WhatsApp**, and **Google** products.
+**Zaru** is a powerful command-line tool that encrypts your source code (Python, JavaScript, PHP, C, C++, Java, Go, Rust, Ruby, Perl, Bash, Lua, TypeScript ) into a **self-decrypting loader** using the **XChaCha20-Poly1305** algorithm — the same encryption used in **Signal**, **WhatsApp**, **WireGuard** and **Google** products.
 
 With Zaru, you can:
 - 🔒 **Obfuscate** your code with military-grade encryption
@@ -90,7 +90,7 @@ zaru -h
 
 🧪 Examples
 
-Python
+Python3
 
 ```bash
 zaru -k "MySecretKey2025" -i app.py -o secure_app.py
@@ -116,13 +116,6 @@ PHP
 ```bash
 zaru -k "MySecretKey2025" -i index.php -o loader.php
 php loader.php
-```
-
-HTML (Opens in browser)
-
-```bash
-zaru -k "MySecretKey2025" -i index.html -o loader.html
-# The loader will automatically open in your default browser
 ```
 
 ---
@@ -180,29 +173,30 @@ pip -r requirements.txt
 ## 🌍 Supported Languages
 
 Extension Language Interpreter
-.py Python python3
+
+.py python3 ( Full Support. )
 
 .js JavaScript node
 
-.php PHP php
+.php PHP
 
-.c C gcc
+.c C/C+/C++ gcc
 
 .cpp C++ g++
 
-.sh Bash bash
+.sh Bash5.3+
 
-.rb Ruby ruby
+.rb Ruby
 
-.pl Perl perl
+.pl Perl
 
-.go Go go run
+.go Go
 
 .rs Rust rustc
 
 .java Java javac
 
-.lua Lua lua
+.lua Lua 
 
 .ts TypeScript ts-node
 
@@ -260,8 +254,10 @@ This tool is for educational and obfuscation purposes only. It does not provide 
 ### 📞 Support
 
 · Issues: GitHub Issues
+
 · Discussions: GitHub Discussions
-· Email: parsajf@example.com
+
+· Email: parsajf@hotmail.com
 
 ---
 
