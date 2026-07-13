@@ -181,19 +181,30 @@ pip -r requirements.txt
 
 Extension Language Interpreter
 .py Python python3
+
 .js JavaScript node
+
 .php PHP php
+
 .c C gcc
+
 .cpp C++ g++
+
 .sh Bash bash
+
 .rb Ruby ruby
+
 .pl Perl perl
+
 .go Go go run
+
 .rs Rust rustc
+
 .java Java javac
+
 .lua Lua lua
+
 .ts TypeScript ts-node
-.html HTML (opens in browser)
 
 ---
 
